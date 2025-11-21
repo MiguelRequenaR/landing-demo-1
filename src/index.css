@@ -1,20 +1,22 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import "tailwindcss";
 
-@font-face {
+/* @font-face {
   font-family: 'ArtegraSoft';
   src: url('/fonts/ArtegraSoft-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
-}
+} */
 
-:root {
+/* :root {
   font-family: 'ArtegraSoft', sans-serif;
-}
+} */
 
 body {
-  font-family: inherit;
+  font-family: 'Urbanist', sans-serif;
 }
 
 /* Estilos para navbar responsive */

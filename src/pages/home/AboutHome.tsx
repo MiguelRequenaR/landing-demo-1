@@ -19,7 +19,8 @@ export default function AboutHome() {
         <div className="flex items-center w-fit gap-5 bg-[#f5f4f9]" data-aos="fade-up" data-aos-delay="200">
           <div className="flex items-center gap-5 pr-5">
             <div className="bg-[#f68b21] w-1 h-28 hidden md:block"></div>
-            <div>
+            <div
+            className="p-4 md:p-0">
               <h3 className="text-base md:text-[17px] font-bold text-[#003d4d]">Seguridad Garantizada</h3>
               <p className="text-sm md:text-[15px] text-[#003d4d]">Tu carga está protegida en todo momento, asegurando entregas seguras y confiables.</p>
             </div>

@@ -75,11 +75,7 @@ export default function Footer() {
       </div>
       <div className="flex flex-col relative z-10 mt-12 text-center text-gray-200 text-sm opacity-75">
         © {new Date().getFullYear()} Grupo HC. Todos los derechos reservados.
-        <span>Desarrollado por <a href="https://grobles.netlify.app/" target="_blank" className="text-[#f68b21] hover:text-white transition-all duration-500 ease-in-out font-bold">Grobles Studio.</a></span>
-      </div>
-      <div>
-        <span>Desarrollado por <a href="https://grobles.netlify.app/" target="_blank" className="text-[#f68b21] hover:text-white transition-all duration-500 ease-in-out font-bold">Grobles Studio.</a></span>
-
+        <span>Desarrollado por <a href="https://www.groblestudio.com/" target="_blank" className="text-[#f68b21] hover:text-white transition-all duration-500 ease-in-out font-bold">Grobles Studio.</a></span>
       </div>
     </footer>
   )

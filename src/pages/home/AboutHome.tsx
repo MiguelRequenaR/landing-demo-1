@@ -10,9 +10,9 @@ export default function AboutHome() {
       <div className="space-y-5">
         <div className="flex items-center gap-2 justify-center md:justify-start" data-aos="fade-up">
           <Truck className="w-6 h-6 text-[#f68b21]" />
-          <h2 className="font-semibold text-[#f68b21]">Sobre nuestra compañia</h2>
+          <h2 className="font-semibold text-[#f68b21] uppercase">Sobre nuestra compañia</h2>
         </div>
-        <h2 className="text-2xl font-bold text-[#003d4d] text-center md:text-left" data-aos="fade-up">Soluciones logísticas que ofrecen excelencia</h2>
+        <h2 className="text-2xl font-bold text-[#003d4d] text-center md:text-left uppercase" data-aos="fade-up">Soluciones logísticas que ofrecen excelencia</h2>
         <p className="text-sm md:text-[17px] text-[#003d4d]" data-aos="fade-up" data-aos-delay="100">
           Ofrecemos soluciones logísticas de alta calidad, adaptadas a cada cliente. Contactanos para obtener más información.
         </p>
@@ -21,7 +21,7 @@ export default function AboutHome() {
             <div className="bg-[#f68b21] w-1 h-28 hidden md:block"></div>
             <div
             className="p-4 md:p-0">
-              <h3 className="text-base md:text-[17px] font-bold text-[#003d4d]">Seguridad Garantizada</h3>
+              <h3 className="text-base md:text-[17px] font-bold text-[#003d4d] uppercase">Seguridad Garantizada</h3>
               <p className="text-sm md:text-[15px] text-[#003d4d]">Tu carga está protegida en todo momento, asegurando entregas seguras y confiables.</p>
             </div>
           </div>
@@ -49,7 +49,7 @@ export default function AboutHome() {
                   <Phone className="w-3 h-3" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-[#f68b21]">Contactanos</h4>
+                  <h4 className="text-sm font-bold text-[#f68b21] uppercase">Contactanos</h4>
                   <p className="text-sm font-semibold text-[#003d4d]">(+51) 933 728 244</p>
                 </div>
               </div>

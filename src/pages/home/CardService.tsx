@@ -123,7 +123,7 @@ export default function CardService() {
                     <div className="bg-[#003d4d] p-3 w-fit">
                       <img src={service.icon} alt="icon" className="w-10 h-10" />
                     </div>
-                    <h2 className="text-[#004364] font-bold text-lg md:text-xl group-hover:text-white transition-colors duration-500">{service.title}</h2>
+                    <h2 className="text-[#004364] font-bold text-lg md:text-xl group-hover:text-white transition-colors duration-500 uppercase">{service.title}</h2>
                     <p className="text-gray-500 text-sm md:text-[16px] group-hover:text-white transition-colors duration-500">{service.description}</p>
                     <div className="bg-[#f68b21] h-0.5 w-[40%] mt-5 group-hover:w-full transition-all duration-500 ease-in-out group-hover:bg-white"></div>
                   </div>
@@ -157,7 +157,7 @@ export default function CardService() {
         </div>
       </div>
 
-      <p className="text-center text-white text-sm pt-10 pb-10" data-aos="fade-up" data-aos-delay="200">
+      <p className="text-center text-white text-sm pt-10 pb-10 uppercase" data-aos="fade-up" data-aos-delay="200">
         Nuestra lista de servicios no termina aquí. Descubra cómo podemos ayudarle a usted y a su empresa.
         <Link to="/servicios">
           <span className="text-[#f68b21] font-bold cursor-pointer"> Más servicios.</span>

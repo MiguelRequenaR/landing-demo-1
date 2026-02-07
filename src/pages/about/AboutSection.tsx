@@ -24,9 +24,9 @@ export default function AboutSection() {
         <div className="space-y-6">
           <div className="flex items-center gap-2" data-aos="fade-up">
             <Truck className="w-6 h-6 text-[#f68b21]" />
-            <h2 className="text-lg font-bold text-[#f68b21]">Sobre nuestra compañia</h2>
+            <h2 className="text-lg font-bold text-[#f68b21] uppercase">Sobre nuestra compañia</h2>
           </div>
-          <h2 className="text-2xl font-bold text-[#003d4d]" data-aos="fade-up">Soluciones logísticas que ofrecen excelencia</h2>
+          <h2 className="text-2xl font-bold text-[#003d4d] uppercase" data-aos="fade-up">Soluciones logísticas que ofrecen excelencia</h2>
           <p className="text-sm md:text-[16px] text-[#003d4d]" data-aos="fade-up" data-aos-delay="100">
             Somos una empresa con más de 10 años de experiencia en el rubro logístico, brindando soluciones integrales de logística y transporte, asegurando entregas seguras, puntuales y eficientes para que su mercancía llegue a destino sin contratiempos.
           </p>
@@ -34,19 +34,19 @@ export default function AboutSection() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10" data-aos="fade-up">
             <div className="flex items-center gap-2 text-sm md:text-[16px] text-[#003d4d]">
               <ListCheck className="w-6 h-6 text-[#f68b21]" />
-              <span>Servicios Nacionales</span>
+              <span className="uppercase">Servicios Nacionales</span>
             </div>
             <div className="flex items-center gap-2 text-sm md:text-[16px] text-[#003d4d]">
               <ListCheck className="w-6 h-6 text-[#f68b21]" />
-              <span>Servicios Locales</span>
+              <span className="uppercase">Servicios Locales</span>
             </div>
             <div className="flex items-center gap-2 text-sm md:text-[16px] text-[#003d4d]">
               <ListCheck className="w-6 h-6 text-[#f68b21]" />
-              <span>Servicios de Carga y Descarga</span>
+              <span className="uppercase">Servicios de Carga y Descarga</span>
             </div>
             <div className="flex items-center gap-2 text-sm md:text-[16px] text-[#003d4d]">
               <ListCheck className="w-6 h-6 text-[#f68b21]" />
-              <span>Entregas puntuales</span>
+              <span className="uppercase">Entregas puntuales</span>
             </div>
           </div>
 
@@ -72,7 +72,7 @@ export default function AboutSection() {
                     <Phone className="w-3 h-3" />
                   </div>
                   <div>
-                    <h4 className="text-sm font-bold text-[#f68b21]">Contactanos</h4>
+                    <h4 className="text-sm font-bold text-[#f68b21] uppercase">Contactanos</h4>
                     <p className="text-sm font-semibold text-[#003d4d]">(+51) 933 728 244</p>
                   </div>
                 </div>

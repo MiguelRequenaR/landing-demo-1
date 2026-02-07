@@ -31,7 +31,7 @@ export default function NavBar() {
 
   return (
     <div className="fixed top-0 left-0 right-0 z-50">
-      <div className={`bg-[#f68b21] text-white hidden lg:flex justify-around items-center transition-all duration-300 ease-in-out overflow-hidden ${isScrolled ? 'max-h-0 p-0 opacity-0' : 'max-h-20 p-3 opacity-100'}`}>
+      <div className={`bg-[#f68b21] text-white hidden lg:flex justify-around items-center transition-all duration-300 ease-in-out overflow-hidden uppercase ${isScrolled ? 'max-h-0 p-0 opacity-0' : 'max-h-20 p-3 opacity-100'}`}>
         <div className="flex items-center gap-2 font-bold">
           <MapPin />
           <span>Ubicación: Av. La Victoria, Lima</span>
@@ -68,10 +68,10 @@ export default function NavBar() {
                   <img src={logoP} alt="logo" className="w-32 md:w-52 object-contain" />
                 </div>
                 <div className="flex flex-col">
-                  <h1 className="text-xl md:text-2xl font-bold text-[#f68b21]">
+                  <h1 className="text-xl md:text-2xl font-bold text-[#f68b21] uppercase">
                     Grupo<span className="text-white">HC</span>
                   </h1>
-                  <p className="text-xs text-gray-300">logistics service</p>
+                  <p className="text-xs text-[#f68b21] font-bold">logistics service</p>
                 </div>
               </div>
             </Link>
@@ -112,11 +112,11 @@ export default function NavBar() {
             }}
           >
             <div className="flex items-center gap-3 group cursor-pointer">
-              <div className="bg-white/10 p-3 rounded-full group-hover:scale-110 group-hover:bg-[#f68b21] transition-all duration-500 ease-in-out">
+              <div className="bg-white/10 p-3 rounded-full group-hover:bg-[#f68b21] transition-all duration-500 ease-in-out">
                 <Phone className="w-6 h-6" />
               </div>
               <div className="flex flex-col">
-                <span className="text-sm font-semibold">Contacto</span>
+                <span className="text-sm font-semibold uppercase">Contacto</span>
                 <span className="text-lg font-bold">(+51) 999 888 777</span>
               </div>
             </div>

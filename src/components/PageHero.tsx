@@ -19,8 +19,8 @@ export default function PageHero({ title, description, imageUrl }: PageHeroProps
       <div className="relative h-full flex items-center">
         <div className="container mx-auto px-8 max-w-7xl pt-0 md:pt-52">
           <div className="max-w-5xl" data-aos="fade-up">
-            <h1 className="text-white text-4xl md:text-7xl font-bold mb-6">{title}</h1>
-            <p className="text-white/90 text-sm md:text-lg  mb-8 max-w-2xl">
+            <h1 className="text-white text-3xl md:text-6xl font-bold mb-6 uppercase">{title}</h1>
+            <p className="text-white/90 text-sm md:text-lg  mb-8 max-w-2xl uppercase">
               {description}
             </p>
           </div>

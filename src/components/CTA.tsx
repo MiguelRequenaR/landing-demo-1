@@ -12,7 +12,7 @@ export default function CTA() {
       <div className="absolute inset-0 bg-black/50"></div>
 
       <div className="max-w-3xl mx-auto relative z-10">
-        <h2 className="text-2xl md:text-4xl text-center font-bold text-white" data-aos="fade-up">¿Estás buscando el mejor servicio de transporte y logística?</h2>
+        <h2 className="text-2xl md:text-4xl text-center font-bold text-white uppercase" data-aos="fade-up">¿Estás buscando el mejor servicio de transporte y logística?</h2>
         <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-10">
           <Link to="/contacto">
             <button className="relative bg-[#f68b21] text-white px-8 py-3 text-lg font-semibold flex items-center gap-3 overflow-hidden transition-all duration-500 ease-in-out uppercase group cursor-pointer" data-aos="zoom-in" data-aos-delay="100">
@@ -36,7 +36,7 @@ export default function CTA() {
       </div>
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row bottom-[-200px] bg-white relative z-20 shadow-lg" data-aos="fade-up">
         <div className="w-full md:w-2/3 p-6 md:p-10 space-y-5">
-          <h3 className="text-2xl font-bold text-[#003d4d]">Servicios que protegen tu negocio</h3>
+          <h3 className="text-2xl font-bold text-[#003d4d] uppercase">Servicios que protegen tu negocio</h3>
           <p className="text-sm md:text-[16px] text-gray-500">
             ¿No estas seguro de que servicio necesitas? Contactanos y te asesoraremos. Te acompañamos en cada etapa del servicio, estamos listos para colaborar contigo.
           </p>

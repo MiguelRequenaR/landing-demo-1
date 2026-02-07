@@ -15,13 +15,13 @@ export default function AboutCta() {
 
         <div className="px-4 mx-auto w-full max-w-7xl z-10 space-y-6">
           <p
-            className="text-white text-xl md:text-2xl font-bold"
+            className="text-white text-xl md:text-2xl font-bold uppercase"
             data-aos="fade-up"
           >
             ¿Listo para trabajar con nosotros?
           </p>
           <h2
-            className="text-white text-2xl md:text-4xl font-bold w-full md:w-2/3"
+            className="text-white text-2xl md:text-4xl font-bold w-full md:w-2/3 uppercase"
             data-aos="fade-up"
           >
             Contactanos estamos disponibles las 24 horas del día

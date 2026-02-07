@@ -25,8 +25,8 @@ export default function AboutTeamSection() {
   return (
     <main>
       <div className="flex flex-col items-center justify-center" data-aos="fade-up">
-        <span className="text-center text-[#f68b21] font-semibold">Nuestro Equipo</span>
-        <h2 className="text-3xl text-center font-bold text-[#003d4d] mt-2">Las mentes brillantes detrás</h2>
+        <span className="text-center text-[#f68b21] font-semibold uppercase">Nuestro Equipo</span>
+        <h2 className="text-3xl text-center font-bold text-[#003d4d] mt-2 uppercase">Las mentes brillantes detrás</h2>
         <p className="text-center text-sm text-gray-500">Conoce a las mentes brillantes detrás de nuestro éxito.</p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-15">
           {

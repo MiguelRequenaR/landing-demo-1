@@ -16,10 +16,10 @@ export default function Footer() {
           <div className="flex items-center gap-3">
             <img src={logoP} alt="logo" className="w-28 object-contain" />
             <div className="flex flex-col">
-              <h1 className="text-2xl font-bold text-[#f68b21]">
+              <h1 className="text-2xl font-bold text-[#f68b21] uppercase">
                 Grupo<span className="text-white">HC</span>
               </h1>
-              <p className="text-xs text-gray-300">logistics service</p>
+              <p className="text-xs text-[#f68b21] font-bold">logistics service</p>
             </div>
           </div>
           <p className="text-gray-300 text-sm md:text-[16px]">
@@ -29,7 +29,7 @@ export default function Footer() {
             <div className="flex items-center gap-3">
               <div className="bg-[#f68b21] w-1 h-8 my-5"></div>
               <div>
-                Redes sociales:
+                <span className="text-sm font-bold uppercase">Redes sociales:</span>
               </div>
             </div>
             <div className="flex items-center gap-3">
@@ -41,7 +41,7 @@ export default function Footer() {
           </div>
         </div>
         <div data-aos="fade-up" data-aos-delay="100">
-          <h3 className="font-bold text-xl mb-4">Servicios</h3>
+          <h3 className="font-bold text-xl mb-4 uppercase">Servicios</h3>
           <ul className="space-y-2 text-gray-200 text-sm md:text-[16px]">
             <li>Transporte terrestre</li>
             <li>Almacenamiento</li>
@@ -51,7 +51,7 @@ export default function Footer() {
         </div>
 
         <div data-aos="fade-up" data-aos-delay="200">
-          <h3 className="font-bold text-xl mb-4">Páginas</h3>
+          <h3 className="font-bold text-xl mb-4 uppercase">Páginas</h3>
           <ul className="space-y-2 text-gray-200 text-sm md:text-[16px]">
             <li className="hover:text-[#f68b21] transition-all duration-500 ease-in-out"><Link to="/">Inicio</Link></li>
             <li className="hover:text-[#f68b21] transition-all duration-500 ease-in-out"><Link to="/nosotros">Nosotros</Link></li>
@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
 
         <div data-aos="fade-up" data-aos-delay="200">
-          <h3 className="font-bold text-xl mb-4">Contacto</h3>
+          <h3 className="font-bold text-xl mb-4 uppercase">Contacto</h3>
           <ul className="space-y-2 text-gray-200 text-sm md:text-[16px]">
             <li>Email: info@grupo-hc.com</li>
             <li>Teléfono: (+51) 999 888 777</li>

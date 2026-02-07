@@ -16,16 +16,16 @@ export default function HeroSection() {
       <div className="relative h-full flex items-center">
         <div className="container mx-auto px-8 max-w-7xl">
           <div className="max-w-5xl">
-            <div className="flex items-center gap-2 mb-6" data-aos="fade-up">
+            <div className="flex items-center gap-2 mb-6 uppercase" data-aos="fade-up">
               <Truck className="w-6 h-6 text-[#f68b21]" />
               <span className="text-white text-sm md:text-lg">Nos especializamos en el transporte</span>
             </div>
 
-            <h1 className="text-white text-3xl md:text-7xl font-bold mb-6" data-aos="fade-up">
+            <h1 className="text-white text-3xl md:text-7xl font-bold mb-6 uppercase" data-aos="fade-up">
               Experimente la mejor logística & transporte
             </h1>
 
-            <p className="text-white/90 text-sm md:text-lg  mb-8 max-w-2xl" data-aos="fade-up" data-aos-delay="100">
+            <p className="text-white/90 text-sm md:text-lg  mb-8 max-w-2xl uppercase" data-aos="fade-up" data-aos-delay="100">
               Ofrecemos soluciones integrales de logística y transporte, asegurando entregas seguras, puntuales y eficientes para que su mercancía llegue a destino sin contratiempos.
             </p>
             <div className="flex flex-col md:flex-row items-center gap-5">

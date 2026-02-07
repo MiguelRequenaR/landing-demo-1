@@ -12,7 +12,7 @@ export default function ServiceDetail() {
     return (
       <main>
         <div className="max-w-7xl mx-auto py-20 text-center">
-          <h1 className="text-3xl font-bold text-[#003d4d] mb-4">Servicio no encontrado</h1>
+          <h1 className="text-3xl font-bold text-[#003d4d] mb-4 uppercase">Servicio no encontrado</h1>
           <p className="text-gray-600">El servicio que buscas no existe.</p>
         </div>
       </main>
@@ -37,11 +37,11 @@ export default function ServiceDetail() {
             />
             <div className="bg-[#f68b21]/90 absolute inset-0"></div>
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white p-5 gap-6 md:gap-10">
-              <h2 className="text-2xl md:text-3xl font-bold text-center">Contacta con Nosotros</h2>
+              <h2 className="text-2xl font-bold text-center uppercase">Contacta con Nosotros</h2>
               <div className="bg-white p-3 md:p-4 rounded-full">
                 <PhoneCall className="w-8 h-8 md:w-10 md:h-10 text-[#f68b21]" />
               </div>
-              <p className="text-base md:text-lg font-semibold text-center">
+              <p className="text-base font-semibold text-center uppercase">
                 ¿Necesitas ayuda? Habla con un experto.
               </p>
               <span className="text-xl md:text-2xl font-bold text-center">(+51) 999 888 777</span>
@@ -55,7 +55,7 @@ export default function ServiceDetail() {
               alt={service.title} 
               className="w-full h-56 md:h-72 object-cover"
             />
-            <h2 className="text-2xl font-bold text-[#003d4d]">{service.title}</h2>
+            <h2 className="text-2xl font-bold text-[#003d4d] uppercase">{service.title}</h2>
             <p className="text-gray-600">{service.firstDescription}</p>
             <div className="flex flex-col md:flex-row gap-6 md:gap-10 items-center">
               <img 
@@ -64,7 +64,7 @@ export default function ServiceDetail() {
                 className="w-full md:w-[300px] lg:w-[400px] h-48 md:h-full object-cover"
               />
               <div className="space-y-2 flex-1">
-                <h3 className="text-xl font-bold text-[#003d4d]">Características</h3>
+                <h3 className="text-xl font-bold text-[#003d4d] uppercase">Características</h3>
                 <hr className="border-gray-300" />
                 <ul className="list-disc list-inside text-gray-600">
                   {service.features?.map((feature) => (
@@ -73,7 +73,7 @@ export default function ServiceDetail() {
                 </ul>
               </div>
             </div>
-            <h2 className="text-2xl font-bold text-[#003d4d]">{service.subtitle}</h2>
+            <h2 className="text-2xl font-bold text-[#003d4d] uppercase">{service.subtitle}</h2>
             <p className="text-gray-600">{service.secondDescription}</p>
           </div>
         </div>

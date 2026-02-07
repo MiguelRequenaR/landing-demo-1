@@ -27,8 +27,8 @@ export default function Testimony() {
   return (
     <div className="max-w-7xl mx-auto pb-40">
       <div className="flex flex-col items-center justify-center my-10" data-aos="fade-up">
-        <span className="text-center text-[#f68b21] font-semibold">Que dicen nuestros clientes</span>
-        <h2 className="text-3xl text-center font-bold text-[#003d4d] mt-2">Historias de nuestros clientes</h2>
+        <span className="text-center text-[#f68b21] font-semibold uppercase">Que dicen nuestros clientes</span>
+        <h2 className="text-3xl text-center font-bold text-[#003d4d] mt-2 uppercase">Historias de nuestros clientes</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 md:p-0">
         {
@@ -38,7 +38,7 @@ export default function Testimony() {
             <div className="relative z-10 flex items-center gap-5">
               <img src={testimony.avatar} alt="avatar" className="w-20 h-20 object-cover rounded-full" />
               <div>
-                <h3 className="text-xl font-bold text-[#003d4d] mt-2 group-hover:text-white transition-colors duration-500">{testimony.name}</h3>
+                <h3 className="text-xl font-bold text-[#003d4d] mt-2 group-hover:text-white transition-colors duration-500 uppercase">{testimony.name}</h3>
                 <p className="text-sm text-gray-500 group-hover:text-white transition-colors duration-500">{testimony.job}</p>
               </div>
             </div>

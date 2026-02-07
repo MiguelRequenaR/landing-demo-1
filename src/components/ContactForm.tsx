@@ -5,8 +5,8 @@ export default function ContactForm() {
     <div className="bg-[#f68b21] h-min-screen">
       <div className="grid grid-cols-1 md:grid-cols-2 relative">
         <div className="relative z-10 ml-0 md:ml-30 mr-0 md:mr-[-100px] bg-[#003d4d] m-4 md:m-10 p-6 md:p-15" data-aos="zoom-in">
-          <span className="text-[#f68b21] text-base font-bold">Reserva una cita</span>
-          <h2 className="text-white text-4xl font-bold py-5">Contactanos</h2>
+          <span className="text-[#f68b21] text-base font-bold uppercase">Reserva una cita</span>
+          <h2 className="text-white text-4xl font-bold py-5 uppercase">Contactanos</h2>
           <Form />  
         </div>
         <div className="relative w-full h-full overflow-hidden hidden md:block">
